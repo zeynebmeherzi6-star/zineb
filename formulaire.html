@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maquette à reproduire</title>
+</head>
+<body>
+    <h1>inscription au club</h1>
+    <form action="/inscription" method="post" enctype="multipart/form-data"></form>
+    <div>
+    <label for="nom complet">nom complet </label>
+    <div>
+     <input type="text"
+           id="nom complet"
+           name=" nom complet"
+           required
+           pattern="3 caracteres  au moins "
+           placeholder=" ex:ehbgoel">
+    </div>
+</div>
+<div>
+    <label for=" email">email </label>
+    <div>
+     <input type="email"
+           id="email"
+           name="email"
+           required
+           placeholder=" ex: zinou@gmail.com">
+    </div> 
+</div>
+<div>
+    <label for="mot de passe">mot de passe</label>
+    <div>
+     <input type="password"
+           id="mot de passe"
+           name="mot de passe"
+           required
+           minlength="8"
+           pattern="8 caracters au moins "
+           placeholder="ex:jjhigfjkvsk">
+    </div>
+</div>
+<div>
+    <label for="confirmer le mot de passe"> confirmer le mot de passe  </label>
+    <div>
+     <input type="password"
+           id="confirmer le mot de passe "
+           name="confirmer le mot de passe "
+           required>
+    </div>
+</div>
+<div>
+    <button>s'inscrire </button>
+</div>
+</table>
+</body>
+</html>
